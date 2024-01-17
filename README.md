@@ -67,23 +67,23 @@ Enter the API layer and then launch the project
 ## API Endpoints and Functionality
     
 Meeting Controller:
-- `GET api/Create-Meeting`: Creates a meeting.
-- `Get api/Active-Meeting`: Gets the active meetings of the logged in person.
-- `PUT api/Disactive-Meeting-Update` : Cancel meeting
-- `POST api/Add-Vote-For-Meeting`: Invited users vote.
-- `GET Get-Single-Meeting-For-User`: Gets a single meeting information.
+- `GET api/Meeting/Create-Meeting`: Creates a meeting.
+- `Get api/Meeting/Active-Meeting`: Gets the active meetings of the logged in person.
+- `PUT api/Meeting/Disactive-Meeting-Update` : Cancel meeting
+- `POST api/Meeting/Add-Vote-For-Meeting`: Invited users vote.
+- `GET api/Meeting/Get-Single-Meeting-For-User`: Gets a single meeting information.
 
 Comment Controller:
-- `POST api/Create-Comment` : Creating comments
-- `DELETE api/Delete-Comment` : Deleting comments
-- `PUT api/Update-Comment` : Comment update
-- `GET api/Get-All-Comment` : Getting all comments
+- `POST api/Comment/Create-Comment` : Creating comments
+- `DELETE api/Comment/Delete-Comment` : Deleting comments
+- `PUT api/Comment/Update-Comment` : Comment update
+- `GET api/Comment/Get-All-Comment` : Getting all comments
 
 User Controller:
-- `POST api/Register-User`: Registering a user
-- `POST api/Login-User`: Where users log in
-- `DELETE api/Delete-User` : Delete user
-- `GET api/Get-User-With-Token` : Obtaining user information with token
-- `GET api/Refresh-Token` : Resresh token verification location
-- `POST api/User-Image-Add`: Place to add images to the user
-- `GET api/User-Image-Get`: Where the image of the logged in user is brought
+- `POST api/User/Register-User`: Registering a user
+- `POST api/User/Login-User`: Where users log in
+- `DELETE api/User/Delete-User` : Delete user
+- `GET api/User/Get-User-With-Token` : Obtaining user information with token
+- `GET api/User/Refresh-Token` : Resresh token verification location
+- `POST api/User/User-Image-Add`: Place to add images to the user
+- `GET api/User/User-Image-Get`: Where the image of the logged in user is brought
