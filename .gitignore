@@ -1,5 +1,6 @@
 /src/ReminderApp.Persistence/Migrations/*
 /src/Logs/*
+/src/Logs
 
 *.swp
 *.*~
