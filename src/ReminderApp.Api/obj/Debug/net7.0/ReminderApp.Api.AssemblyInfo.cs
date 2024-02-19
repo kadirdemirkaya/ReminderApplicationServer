@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReminderApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08ed1465cc58740313c291e50f2df135ebd8f9bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReminderApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReminderApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
